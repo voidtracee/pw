@@ -71,7 +71,7 @@
       }
 
       #ukmButtons {
-        display: flex;
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 22px 24px;
         justify-items: center;
@@ -149,11 +149,7 @@
       }
 
       .ukm-card {
-        width: 100%;
-        max-width: 160px;
-        min-width: 120px;
-        height: auto;
-        box-sizing: border-box;
+        width: 300px;
         background: rgba(8, 12, 76, 0.85);
         padding: 28px 20px;
         border-radius: 16px;
@@ -175,23 +171,6 @@
         }
       }
 
-      @media (max-width: 480px) {
-  .ukm-card {
-    width: 42%;
-    margin: 6px;
-  }
-
-  .ukm-card button {
-    font-size: 0.75rem;
-    padding: 6px 10px;
-    max-width: 100%;
-  }
-
-  .btn-export, .btn-add {
-    width: 100%;
-    margin: 8px 0;
-  }
-}
 
 
       .ukm-card:hover {
